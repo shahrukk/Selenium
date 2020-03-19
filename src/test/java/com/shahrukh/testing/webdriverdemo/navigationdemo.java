@@ -19,7 +19,7 @@ public class navigationdemo {
 	}
 	
 	@Test
-	public void navigate() {
+	public void navigate() throws Exception {
 		sleepNsec(2);
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();

@@ -24,7 +24,7 @@ class WebdriverdemoApplicationTests {
 	
 	
 	@Test
-	public void getCommand() {
+	public void getCommand() throws Exception {
 		try {
 			sleepNsec(3);
 			driver.manage().window().maximize();
